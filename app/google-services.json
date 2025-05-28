@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "661919670094",
+    "project_id": "malnutrition-8a463",
+    "storage_bucket": "malnutrition-8a463.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661919670094:android:a9a9a0312226286fbc081f",
+        "android_client_info": {
+          "package_name": "com.example.malnuapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Z6SBM6kPwQx3Cq67Y53yO1cQxVMDE_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661919670094:android:3c385cac0382ac57bc081f",
+        "android_client_info": {
+          "package_name": "com.example.swastha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Z6SBM6kPwQx3Cq67Y53yO1cQxVMDE_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lla1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/lli1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/arrow"
+                android:contentDescription="Back"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="35dp"
+                android:fontFamily="@font/rubik_bold"
+                android:text="About Us"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/aboutText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lla1"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/rubik_bold"
+            android:justificationMode="inter_word"
+            android:autoLink="web|phone"
+            android:text="Malnutrition severely affects children in underprivileged communities, making early detection vital. To aid NGOs and healthcare workers, an Android app is proposed to diagnose, track, and manage malnutrition using image processing and convolutional neural networks. By analyzing photos of a child’s face, eyes, or legs, the app identifies early signs of malnutrition. It offers dietary suggestions, recommends medical intervention, and collects regional data to help allocate resources efficiently.\n\nThe app simplifies diagnosis, enables real-time assessment, and improves response time for at-risk children. Training the model on diverse child images enhances accuracy, supporting targeted and timely health interventions.
+            \n\nContact No: 9867821708
+            \nWebsite: https://shivajiraojondhalecoe.org.in/"
+            android:textSize="20sp"
+            android:linksClickable="true" />
+    </RelativeLayout>
+</ScrollView>

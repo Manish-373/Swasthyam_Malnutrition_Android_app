@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/whit"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:id="@+id/la1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/logo"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/appname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/la1"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/rubikregular"
+        android:text="Svasthyam"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/appname1"
+        android:gravity="center"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="3"
+            android:scaleType="fitCenter"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="HELLO USER!"
+            android:layout_marginStart="-80dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appname1"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/design"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rateus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginStart="-30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="35dp"
+                android:text="Rate us"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="-30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/about" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="35dp"
+                android:text="About Us"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="-30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/contact" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="35dp"
+                android:text="Contact Us"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="-30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/exit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="35dp"
+                android:text="Sign Out"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
